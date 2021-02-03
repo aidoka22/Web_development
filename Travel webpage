@@ -9,6 +9,11 @@
                 text-align: center;
                 font-family:cursive;
             }
+            h3{
+                color:rgb(242, 56, 71);
+                text-align: center;
+                font-family:cursive;
+            }
             body{
                 background-color:rgb(220, 220, 250);              font-family:cursive;          }
             #star{
@@ -32,11 +37,32 @@
     <body>
     
         <h1>Travel to the Hawaii beach</h1>
+        <h3> And meet a lot of people</h3>
         <ul>
-        <li><p id="star"> Beautiful landscapes <br><img src="https://www.kasandbox.org/programming-images/landscapes/beach-in-hawaii.png" width="200" height="150"> <img src="https://www.kasandbox.org/programming-images/landscapes/lake.png" width="200" height="150"></p></li>
-        <li><p id="star2"> Rare animals <br><img src="https://www.kasandbox.org/programming-images/animals/birds_rainbow-lorakeets.png" width="200" height="150"> <img src="https://www.kasandbox.org/programming-images/animals/shark.png" width="200" height="150"></p></li>
-        <li><p id="star3"> Extravagant food <br><img src="https://www.kasandbox.org/programming-images/food/fish_grilled-snapper.png" width="200" height="150"> <img src="https://www.kasandbox.org/programming-images/food/oysters.png" width="200" height="150"></p></li>
-        <li><p id="star4"> And a lot of fun <br><img src="https://www.kasandbox.org/programming-images/seasonal/fireworks-over-harbor.png" width="200" height="150"> <img src="https://www.kasandbox.org/programming-images/seasonal/xmas-ornaments.png" width="200" height="150"></p></li>
+        <li><p id="star"> Beautiful landscapes <br><img src="https://www.kasandbox.org/programming-images/landscapes/beach-in-hawaii.png" width="200" height="150"> <img src="https://www.kasandbox.org/programming-images/landscapes/lake.png" width="200" height="150"></p>
+            <ul>
+                <li>Na Pali Coast, Kauai</li>
+                <li> Papakolea Green Sand Beach</li>
+                <li>Hanalei Valley Lookout, Kauai</li>
+            </ul>
+        </li>
+        <li><p id="star2"> Rare animals <br><img src="https://www.kasandbox.org/programming-images/animals/birds_rainbow-lorakeets.png" width="200" height="150"> <img src="https://www.kasandbox.org/programming-images/animals/shark.png" width="200" height="150"></p><ul>
+                <li>Hawaiian Monk Seal</li>
+                <li> Hawaiian Hoary Bat</li>
+                <li>Hawaiian Green Sea Turtles</li>
+            </ul></li>
+        <li><p id="star3"> Extravagant food <br><img src="https://www.kasandbox.org/programming-images/food/fish_grilled-snapper.png" width="200" height="150"> <img src="https://www.kasandbox.org/programming-images/food/oysters.png" width="200" height="150"></p><ul>
+                <li>Hawaiian Plate</li>
+                <li> All-Natural Shave Ice</li>
+                <li>Saimin</li>
+            </ul></li>
+        <li><p id="star4"> And a lot of fun <br><img src="https://www.kasandbox.org/programming-images/seasonal/fireworks-over-harbor.png" width="200" height="150"> <img src="https://www.kasandbox.org/programming-images/seasonal/xmas-ornaments.png" width="200" height="150"></p>
+            <ul>
+                <li>Oahu's North Shore</li>
+                <li>  Molokai</li>
+                <li>Haleakala National Park</li>
+            </ul>
+        </li>
         </ul>
     </body>
 </html>
