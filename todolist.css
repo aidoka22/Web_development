@@ -1,0 +1,84 @@
+body {
+    color: #000000;
+    background: #ffffff;
+}
+#Button1{
+    background-color: #302f2f;
+    color:rgb(255, 255, 255);
+    width:1400;
+    height:150;
+    padding: 20px;
+    padding-left: 40px;
+    font-weight: 100;
+    font-size: 20;
+}
+#Name{
+    font-size: 35px;
+}
+.wrapper{
+    position: absolute;
+    left: 250px;
+    top: 100px;
+}
+.add{
+    background-color: #1877f2;
+    color:rgb(255, 253, 253);
+}
+.add:hover {
+    background-color: rgb(51, 53, 211);
+}
+#ss,.add{
+    width: 500px;
+    border-radius: 5px;
+    border-width: 1px;
+    line-height: 1.5;
+    border-color: rgb(46, 46, 46);
+    padding: 7px;
+}
+#ss{
+    margin-left: 50px;
+    margin:20px;
+}
+.close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 20px;
+    text-decoration: none;
+}
+
+
+ul li{
+    border:1px solid #a0a0a0 ;
+    cursor: pointer;
+    position: relative;
+    list-style-type: none;
+    padding: 20px;
+    padding-left: 60px;;
+    padding-right: 400px;
+}
+ul li .box{
+    text-decoration: none;
+    position: absolute;
+    left: 0;
+    top: 20;
+    padding: 20px;
+    z-index: 1;
+}
+ul li.checked {
+    text-decoration: line-through;
+}
+
+ul li.checked::before {
+    content: '';
+    position: absolute;
+    border-color: rgb(57, 134, 235);
+    border-style: solid;
+    z-index: 2;
+    border-width: 0 2px 2px 0;
+    top: 20px;
+    left: 8px;
+    transform: rotate(50deg);
+    height: 10px;
+    width: 7px;
+}
